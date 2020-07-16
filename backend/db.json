@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "samsung s20+ Ultra",
+      "price": "6000.99"
+    },
+    {
+      "name": "Celular Motorola G6 Plus",
+      "price": 978.99,
+      "id": 4
+    },
+    {
+      "name": "Kit Teclado e Mouse ",
+      "price": "99.01",
+      "id": 5
+    },
+    {
+      "name": "Bicicleta BMX Super",
+      "price": "1549.50",
+      "id": 6
+    }
+  ]
+}
