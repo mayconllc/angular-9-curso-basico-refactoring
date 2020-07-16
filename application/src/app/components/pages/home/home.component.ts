@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeaderService } from '../../layout/header/header.service';
 
 @Component({
   selector: 'home',
@@ -8,6 +9,11 @@ import { Component } from '@angular/core';
 
 export class HomeComponent {
 
-  constructor() { }
+  constructor(private headerService: HeaderService) {
+    headerService.header = {
+      title: 'Home',
+      icon: 'home'
+    }
+  }
 
 }

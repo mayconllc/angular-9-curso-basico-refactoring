@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeaderService } from './header.service';
 
 @Component({
     selector: 'header',
@@ -7,5 +8,14 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
+    
+    constructor(private headerService: HeaderService){}
 
+    get title(): string {
+        return this.headerService.header.title;
+    }
+
+    get icon(): string {
+        return this.headerService.header.icon;
+    }
 }
