@@ -20,7 +20,7 @@ export class CreateComponent {
   createProduct() {
     this.service.create(this.product).subscribe(() => {
       this.service.showMessage('Produto criado com sucesso!');
-      this.router.navigate(['/products']);
+      this.cancel();
     });    
   }
 

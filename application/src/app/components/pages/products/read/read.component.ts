@@ -3,7 +3,6 @@ import { Product } from '../product.model';
 import { ProductService } from '../product.service';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from '../dialog/dialog.component';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-read',
@@ -15,7 +14,7 @@ export class ReadComponent implements OnInit {
   products: Product[];
   displayedColumns = ['id', 'name', 'price', 'action'];
 
-  constructor(private service: ProductService, public dialog: MatDialog, private router: Router) { }
+  constructor(private service: ProductService, public dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.service.get().subscribe(products => {
