@@ -19,6 +19,31 @@
       "name": "Bicicleta BMX Super",
       "price": "1549.50",
       "id": 6
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 7
+    },
+    {
+      "name": "Maycon",
+      "price": "321",
+      "id": 8
+    },
+    {
+      "name": "C-se",
+      "price": "42.00",
+      "id": 9
+    },
+    {
+      "name": "C-se dois rr",
+      "price": "321.99",
+      "id": 10
+    },
+    {
+      "name": "Novo Produto",
+      "price": "10.99",
+      "id": 11
     }
   ]
 }
